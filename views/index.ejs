@@ -1,0 +1,28 @@
+<!-- index.ejs -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Loot Table Generator</title>
+  </head>
+  <script src="/socket.io/socket.io.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  
+  <body>
+    <ul id="messages"></ul>
+    <form action="">
+      <input id="item0" autocomplete="off" /><input id="chance0" autocomplete="off" />
+      <br>
+      <input id="item1" autocomplete="off" /><input id="chance1" autocomplete="off" />
+
+      <button>Send</button>
+    </form>
+    <button id="add">Add</button>
+
+    
+    <script type="text/javascript" src="/javascript/home.js"></script>
+  </body>
+</html>
